@@ -1,0 +1,53 @@
+body{
+    background-color: #ECF9FF;
+    margin: 200px 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.desc h1{
+    font-size: 50px;
+    margin: 0px;
+}
+.desc p{
+    font-size: 28px;
+    margin-top: 5px;
+}
+.input{
+    margin: 0px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.input p {
+    margin: 8px 0px;
+}
+.input input{
+    padding: 8px;
+    margin-bottom: 12px;
+}
+.input button {
+    margin-top: 10px;
+    padding: 5px;
+}
+#result {
+    padding: 12px 0px;
+}
+#button {
+    background-color: blue;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: none;
+    font-weight:bolder;
+}
